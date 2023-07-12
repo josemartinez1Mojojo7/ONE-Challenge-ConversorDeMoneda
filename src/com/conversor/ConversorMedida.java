@@ -21,7 +21,7 @@ public class ConversorMedida {
 	
 	public void Convertir(double valor) {
 	
-		String opcion = (JOptionPane.showInputDialog(null,"Elije la moneda a convertir",  "Monedas",
+		String opcion = (JOptionPane.showInputDialog(null,"Elije la moneda a convertir",  "Medidas",
 				JOptionPane.INFORMATION_MESSAGE, null, possibleOpciones,possibleOpciones[0])).toString();
 		
 		switch (opcion) {
